@@ -49,7 +49,7 @@ body {
 }
 
 /* --→ Latest News ←-- */
-#latest-news .btn:hover {
+#packeges .btn:hover {
 	color: var(--bs-light);
 	background-color: var(--bs-primary);
 }
@@ -62,12 +62,12 @@ body {
 
 /* --→ Latest News and Album Section ←-- */
 .single-image img,
-#latest-news img {
+#packeges img {
 	transition: all .4s linear;
 }
 
 .single-image:hover img,
-#latest-news img:hover {
+#packeges img:hover {
 	transform: scale(1.1);
 }
 
