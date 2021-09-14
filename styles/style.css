@@ -40,11 +40,8 @@ body {
 
 /* --→ Header Section ←-- */
 #header-section {
-	background: rgb(13,110,253);
-	background: linear-gradient(72deg, rgba(13,110,253,1) 0%, rgba(98,149,223,1) 48%, rgba(255,255,255,1) 100%);
-	background: #000428;
-	background: -webkit-linear-gradient(to left, #004e92, #000428);
-	background: linear-gradient(to left, #004e92, #000428); 
+	background: rgb(0,4,40);
+	background: linear-gradient(72deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);
 }
 
 /* --→ Featured Bike ←-- */
