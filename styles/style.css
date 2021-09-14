@@ -1,22 +1,22 @@
 /* ----------------------------------
-	00. Import Required Files		
+	০. জরুরী ফাইল সংযুক্ত		
 ---------------------------------- */
-/* --→ Google Fonts ←-- */
+/* --→ গুগল ফন্ট ←-- */
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;700&display=swap');
 
-/* --→ Bootstrap Icons ←-- */
+/* --→ বুটস্ট্রাপ আইকন ←-- */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
 
 
 /* ----------------------------------
-	01. Main CSS Styles
+	১. মেইন সিএসএস স্টাইল
 ---------------------------------- */
 ::selection {
 	color: var(--bs-light);
 	background-color: var(--bs-primary);
 }
 
-/* → Scrollbar Styles ← */
+/* → স্ক্রলবার স্টাইল ← */
 ::-webkit-scrollbar {
 	width: 12px;
 	background-color: var(--bs-dark);
@@ -38,53 +38,28 @@ body {
 	font-size: 1.2rem;
 }
 
-/* --→ Header Section ←-- */
+/* --→ হেডার সেকশন ←-- */
 #header-section,
 #call-to-action {
 	background: rgb(0,4,40);
 	background: linear-gradient(72deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);
 }
 
-/* --→ Featured Bike ←-- */
-.grayscale {
-	filter: grayscale(100%);
-	transition: filter .2s linear;
+.takwa-toggler-icon {
+	color: var(--bs-light);
+	font-size: 32px;
 }
 
-.grayscale:hover {
-	filter: grayscale(0);
-}
-
-/* --→ Latest News ←-- */
+/* --→ আমাদের প্যাকেজ ←-- */
 #packeges .btn:hover {
 	color: var(--bs-light);
 	background-color: var(--bs-primary);
 }
 
-#ride-section .btn:hover {
-	color: var(--bs-light);
-	background-color: var(--bs-primary);
-	border-color: var(--bs-light);
-}
-
-/* --→ Latest News and Album Section ←-- */
-.single-image img,
 #packeges img {
 	transition: all .4s linear;
 }
 
-.single-image:hover img,
 #packeges img:hover {
 	transform: scale(1.1);
-}
-
-.album-text {
-	background-color: #000000cc;
-	opacity: 0;
-	transition: all .7s;
-}
-
-.single-image:hover .album-text {
-	opacity: 1;
-	border-radius: .25rem;
 }
