@@ -39,7 +39,8 @@ body {
 }
 
 /* --→ Header Section ←-- */
-#header-section {
+#header-section,
+#call-to-action {
 	background: rgb(0,4,40);
 	background: linear-gradient(72deg, rgba(0,4,40,1) 0%, rgba(0,78,146,1) 100%);
 }
